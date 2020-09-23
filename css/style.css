@@ -1,0 +1,114 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(58, 58, 58);
+}
+@media screen and (max-width: 768px) {
+    #hero-quote p {
+      font-size: 15px;
+    }
+    #header-list {
+        display: none;
+    }
+    #menu-icon {
+        display: inline-block;
+      }
+  }
+  @media screen and (min-width: 768px) {
+    #hero-quote p {
+      font-size: 30px;
+    }
+    #header-list {
+        display: none;
+    }
+    #menu-icon {
+        display: block;
+      }
+  }
+@media screen and (min-width: 992px) {
+    #hero-quote p {
+      font-size: 30px;
+    }
+    #header-list {
+        display: block;
+    }
+    #menu-icon {
+        display: none;
+      }
+  } 
+
+
+/***************************HEADER SECTION**********************************/
+header h1 {
+    color: rgb(59, 59, 59);
+    font-weight: 300;
+}
+header a {
+    color: gray;
+    padding-left: 20px;
+
+}
+header a:hover {
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+#menu-icon img {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+/***************************HERO SECTION**********************************/
+#hero-section {
+    position: relative;  
+}
+#hero-section img {
+    width: 100%;
+}
+
+#hero-quote{
+    position: absolute;
+    padding: 5px;
+    top: 2rem;
+    left: 2rem;
+    box-sizing: inherit;
+    background-color: rgb(62, 207, 130);
+    color: rgb(255, 246, 232);;
+}
+
+/***************************INFO SECTION**********************************/
+#info-section img {
+    color: rgb(62, 207, 130);
+}
+
+/***************************CONTENT SECTION**********************************/
+.border-line {
+    border-bottom:1px solid rgb(97, 97, 97);
+}
+
+/***************************FOOTER SECTION**********************************/
+footer {
+    color: rgb(255, 246, 232);
+    background-color: rgb(47, 47, 47);
+}
+
+footer ul {
+    color: rgb(163, 163, 163);
+}
+footer li {
+    padding: 5px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+footer li:first-child {
+    border-top: 1px solid rgb(163, 163, 163);
+}
+#smaller-list li {
+    padding: 4px;
+} 
+#footer-copyright {
+    background-color: rgb(32, 32, 32);
+    color:rgb(163, 163, 163);
+}  
+
+
